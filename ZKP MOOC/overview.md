@@ -66,6 +66,24 @@ commitment의 예로는 HMAC이 있다
 
 ![image](https://github.com/dik654/Zero_knowledge/assets/33992354/d68db58c-5207-4031-b6e0-63a52bf33eeb)
 
-아래 그림은 함수를 commitment하는 과정을 나타낸다
+## 함수 commitment
+![image](https://github.com/dik654/Zero_knowledge/assets/33992354/e86843ba-dc7d-4936-a9bb-d4056431f972)
 
+![image](https://github.com/dik654/Zero_knowledge/assets/33992354/f9a469bc-f761-4839-8c31-80016137b489)
 
+![image](https://github.com/dik654/Zero_knowledge/assets/33992354/1db1f3b2-9378-4d37-8726-e71152e13b50)
+다항식이 0인지 확인하는 테스트
+![image](https://github.com/dik654/Zero_knowledge/assets/33992354/2199e52e-cb3e-4440-b5fe-9697c488e116)
+
+두 커밋된 다항식이 동일한지 확인하는 테스트
+![image](https://github.com/dik654/Zero_knowledge/assets/33992354/b69e9cb3-5f01-4153-808a-7249e90b984c)
+
+### public coin interactive protocol 
+- verifier가 랜덤값을 제공하면 prover가 증명을 보내주는 형식
+Fiat-Shamir transform :
+- public coin interactive protocol을 비대화식으로 바꾸기 위해서<br/>
+  어떤 랜덤값 생성함수를 만들고 그 함수의 초기값을 verifier가 설정하게하여<br/>
+  prover가 증명을 생성하기 전에 스스로 랜덤값을 생성하도록 하는 방식
+
+## IOP
+verify를 하는데 있어서 많은 리소스가 들기 때문에 prover와 verifier 사이에 대신 계산을 해주는 oracle이라는 중간자를 두는 방식
