@@ -12,9 +12,43 @@ prover에게 받은 계산값과 verifier 자신이 계산한 결과를 비교�
 
 ![image](https://github.com/dik654/Zero_knowledge/assets/33992354/33a9e9d9-9c05-4098-b27f-7fc3dedc4089)
 
-<img width="1159" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/469d4283-8883-445d-8f7d-8dbd605d19ee">
+<br/><br/>
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/469d4283-8883-445d-8f7d-8dbd605d19ee">
+
+<br/><br/>
 
 ## KZG poly-commit scheme 
 
 <img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/47e20f24-a250-4fa0-995a-a00073592650">
 
+<br/><br/>
+
+### eval proof 과정
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/e02c4490-e774-4c73-abea-eb94c0bec546">
+
+<br/><br/>
+
+## 다변수로 확장하는 경우
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/ca95e0d8-e077-4875-b55d-3d53d052cbda">
+
+<br/><br/>
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/59531dc9-4f26-4807-b5bd-aba7efecf45a">
+
+<br/><br/>
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/518b3311-75e4-4fd5-8f96-4c9878bf6bb1">
+
+## 평가 증명 생성 속도 최적화
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/db45efb2-ddcd-4780-b13f-aa004e4c21e6">
+
+<br/><br/>
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/78cbec72-7f06-4bed-bf4e-cfc5d011d788">
+
+<br/><br/>
+
+<img width="953" alt="image" src="https://github.com/dik654/Zero_knowledge/assets/33992354/c7759c05-1740-4f52-8504-ed1ba2d6e117">
